@@ -313,5 +313,4 @@ def main() -> None:
     # Start the Bot
     application.run_polling()
 
-if name == "main":
-    main()
+main()

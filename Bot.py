@@ -224,8 +224,8 @@ async def start_encoding(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         if process.returncode != 0:
             logger.error(f"Encoding failed: {stderr.decode()}")
 
-      await status_message.edit_text("Encoding failed. Please try again with a different video.")
-            return ConversationHandler.END
+        await status_message.edit_text("Encoding failed. Please try again with a different video.")
+        return ConversationHandler.END
         
         # Apply custom thumbnail if provided
         if user_data.get("thumbnail_path"):

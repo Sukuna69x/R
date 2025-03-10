@@ -28,7 +28,7 @@ UPLOAD, CHOOSE_QUALITY, RENAME, THUMBNAIL = range(4)
 user_data_store = {}
 
 # Bot token from BotFather
-TOKEN = "YOUR_BOT_TOKEN"
+TOKEN = "7619297383:AAH80S9W4P1rB35Ygq31MJypanMui2fpCSQ"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /start is issued."""
